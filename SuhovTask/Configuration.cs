@@ -7,9 +7,9 @@ using System.Configuration;
 using System.Resources;
 using System.Reflection;
 
-namespace SuhovTask.Core
+namespace SuhovTask
 {
-    public static class LocalConfiguration
+    public static class Dictionary
     {
         private static string _language = null;
 
@@ -32,17 +32,25 @@ namespace SuhovTask.Core
             }
         }
 
-        public static ResourceManager Resource
+        private static ResourceManager Resource
         {
             get
             {
                 if ((_res == null) || (!handleChange))
                 {
-                    _res = new ResourceManager(Language, Assembly.GetExecutingAssembly());
+                    _res = new ResourceManager("SuhovTask.LanguageFiles." + Language, Assembly.GetExecutingAssembly());
                     handleChange = true;
                 };
                 return _res;
             }
+        }
+
+        public static string Get(string key)
+        {
+            ResourceManager res = Resource;
+
+            return res.GetString(key);
+            
         }
     }
 }

@@ -123,7 +123,7 @@
   <data name="eighteen" xml:space="preserve">
     <value>eighteen</value>
   </data>
-  <data name="eigthy" xml:space="preserve">
+  <data name="eighty" xml:space="preserve">
     <value>eigthy</value>
   </data>
   <data name="eleven" xml:space="preserve">
@@ -150,14 +150,14 @@
   <data name="hundred" xml:space="preserve">
     <value>hundred</value>
   </data>
-  <data name="hundreds" xml:space="preserve">
-    <value>hundreds</value>
+  <data name="less than five" xml:space="preserve">
+    <value>s</value>
   </data>
   <data name="million" xml:space="preserve">
     <value>million</value>
   </data>
-  <data name="millions" xml:space="preserve">
-    <value>millions</value>
+  <data name="more than five" xml:space="preserve">
+    <value>s</value>
   </data>
   <data name="nine" xml:space="preserve">
     <value>nine</value>
@@ -170,6 +170,9 @@
   </data>
   <data name="one" xml:space="preserve">
     <value>one</value>
+  </data>
+  <data name="one thousand" xml:space="preserve">
+    <value>one thousand</value>
   </data>
   <data name="seven" xml:space="preserve">
     <value>seven</value>
@@ -201,9 +204,6 @@
   <data name="thousand" xml:space="preserve">
     <value>thousand</value>
   </data>
-  <data name="thousands" xml:space="preserve">
-    <value>thousands</value>
-  </data>
   <data name="three" xml:space="preserve">
     <value>three</value>
   </data>
@@ -215,6 +215,9 @@
   </data>
   <data name="two" xml:space="preserve">
     <value>two</value>
+  </data>
+  <data name="two thousands" xml:space="preserve">
+    <value>two thousands</value>
   </data>
   <data name="zero" xml:space="preserve">
     <value>zero</value>

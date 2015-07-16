@@ -6,44 +6,28 @@ using System.Threading.Tasks;
 using System.Globalization;
 using System.Resources;
 using System.Configuration;
+
+using Ninject;
+
+using SuhovTask.Interfaces;
 using SuhovTask.Core;
-using SuhovTask.LanguageFiles;
+using System.Reflection;
 
 namespace SuhovTask
 {
     class Program
     {
-        ResourceManager res_man;    
 
         static void Main(string[] args)
         {
-            string numberAsString;
-            int number = 0;
-            numberAsString = Console.ReadLine();
+            IKernel kernel = new StandardKernel();
+            kernel.Load(Assembly.GetExecutingAssembly());
+            IReader reader = kernel.Get<IReader>();
+            IWriter writer = kernel.Get<IWriter>();
+            ITransformer transformer = kernel.Get<ITransformer>();
 
-            try
-            {
-                number = Convert.ToInt32(numberAsString);
-                string Text = res_man.GetString("MainForm_text", LocalConfiguration.Language);
-            }
-            catch (FormatException e)
-            {
-                Console.WriteLine("Input string is not a sequence of digits.");
-            }
-            catch (OverflowException e)
-            {
-                Console.WriteLine("The number cannot fit in an Int32.");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            finally
-            {
-                Console.Write("The number is: {0}", number.ToString());
-                Console.ReadLine();
-            }
-
+            while (true)
+                writer.Write(transformer.Transform(reader.GetNumber()));
         }
     }
 }

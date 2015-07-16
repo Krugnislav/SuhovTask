@@ -120,10 +120,13 @@
   <data name="eight" xml:space="preserve">
     <value>восемь</value>
   </data>
+  <data name="eight hundreds" xml:space="preserve">
+    <value>восемьсот</value>
+  </data>
   <data name="eighteen" xml:space="preserve">
     <value>восемьнадцать</value>
   </data>
-  <data name="eigthy" xml:space="preserve">
+  <data name="eighty" xml:space="preserve">
     <value>восемьдесят</value>
   </data>
   <data name="eleven" xml:space="preserve">
@@ -138,11 +141,17 @@
   <data name="five" xml:space="preserve">
     <value>пять</value>
   </data>
+  <data name="five hundrets" xml:space="preserve">
+    <value>пятьсот</value>
+  </data>
   <data name="forty" xml:space="preserve">
     <value>сорок</value>
   </data>
   <data name="four" xml:space="preserve">
     <value>четыре</value>
+  </data>
+  <data name="four hundreds" xml:space="preserve">
+    <value>четыреста</value>
   </data>
   <data name="fourteen" xml:space="preserve">
     <value>четырнадцать</value>
@@ -150,17 +159,23 @@
   <data name="hundred" xml:space="preserve">
     <value>сто</value>
   </data>
-  <data name="hundreds" xml:space="preserve">
-    <value>сот</value>
+  <data name="less than five" xml:space="preserve">
+    <value>а</value>
+  </data>
+  <data name="less than five thousands" xml:space="preserve">
+    <value>и</value>
   </data>
   <data name="million" xml:space="preserve">
     <value>миллион</value>
   </data>
-  <data name="millions" xml:space="preserve">
-    <value>миллионов</value>
+  <data name="more than five" xml:space="preserve">
+    <value>ов</value>
   </data>
   <data name="nine" xml:space="preserve">
     <value>девять</value>
+  </data>
+  <data name="nine  hundreds" xml:space="preserve">
+    <value>девятьсот</value>
   </data>
   <data name="nineteen" xml:space="preserve">
     <value>девятнадцать</value>
@@ -171,8 +186,17 @@
   <data name="one" xml:space="preserve">
     <value>один</value>
   </data>
+  <data name="one hundred" xml:space="preserve">
+    <value>сто</value>
+  </data>
+  <data name="one thousand" xml:space="preserve">
+    <value>одна тысяча</value>
+  </data>
   <data name="seven" xml:space="preserve">
     <value>семь</value>
+  </data>
+  <data name="seven hundreds" xml:space="preserve">
+    <value>семьсот</value>
   </data>
   <data name="seventeen" xml:space="preserve">
     <value>семнадцать</value>
@@ -182,6 +206,9 @@
   </data>
   <data name="six" xml:space="preserve">
     <value>шесть</value>
+  </data>
+  <data name="six hundreds" xml:space="preserve">
+    <value>шестьсот</value>
   </data>
   <data name="sixteen" xml:space="preserve">
     <value>шестнадцать</value>
@@ -198,14 +225,14 @@
   <data name="thirty" xml:space="preserve">
     <value>тридцать</value>
   </data>
-  <data name="thousand" xml:space="preserve">
-    <value>тясяча</value>
-  </data>
   <data name="thousands" xml:space="preserve">
     <value>тясяч</value>
   </data>
   <data name="three" xml:space="preserve">
     <value>три</value>
+  </data>
+  <data name="three hundreds" xml:space="preserve">
+    <value>триста</value>
   </data>
   <data name="twelve" xml:space="preserve">
     <value>двенадцать</value>
@@ -215,6 +242,12 @@
   </data>
   <data name="two" xml:space="preserve">
     <value>два</value>
+  </data>
+  <data name="two hundreds" xml:space="preserve">
+    <value>двести</value>
+  </data>
+  <data name="two thousands" xml:space="preserve">
+    <value>две тысячи</value>
   </data>
   <data name="zero" xml:space="preserve">
     <value>ноль</value>
