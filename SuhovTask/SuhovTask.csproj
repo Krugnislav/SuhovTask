@@ -48,7 +48,7 @@
   <ItemGroup>
     <Compile Include="Bindings.cs" />
     <Compile Include="Configuration.cs" />
-    <Compile Include="Core\IntToStringConverter.cs" />
+    <Compile Include="Core\IntToString.cs" />
     <Compile Include="Core\Reader.cs" />
     <Compile Include="Core\Transformer.cs" />
     <Compile Include="Core\Writer.cs" />

@@ -15,8 +15,8 @@ namespace SuhovTask.Core
 
         }
 
-        public void Write(string number) {
-            Console.Write("The number is: {0}", number);
+        public void Write(string number, string system) {
+            Console.Write("{0}: {1} {2} {3} {4}", Dictionary.Get("Result"), number, Dictionary.Get("in"), Dictionary.Get(system), Dictionary.Get("system"));
             Console.ReadLine();
         }
 

@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="billion" xml:space="preserve">
+    <value>billion</value>
+  </data>
+  <data name="decimal" xml:space="preserve">
+    <value>decimal</value>
+  </data>
   <data name="eight" xml:space="preserve">
     <value>eight</value>
   </data>
@@ -150,6 +156,15 @@
   <data name="hundred" xml:space="preserve">
     <value>hundred</value>
   </data>
+  <data name="in" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="Input string is not a sequence of digits." xml:space="preserve">
+    <value>Input string is not a sequence of digits.</value>
+  </data>
+  <data name="Input the number" xml:space="preserve">
+    <value>Input the number</value>
+  </data>
   <data name="less than five" xml:space="preserve">
     <value>s</value>
   </data>
@@ -168,11 +183,17 @@
   <data name="ninety" xml:space="preserve">
     <value>ninety</value>
   </data>
+  <data name="octal" xml:space="preserve">
+    <value>octal</value>
+  </data>
   <data name="one" xml:space="preserve">
     <value>one</value>
   </data>
   <data name="one thousand" xml:space="preserve">
     <value>one thousand</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
   </data>
   <data name="seven" xml:space="preserve">
     <value>seven</value>
@@ -192,8 +213,14 @@
   <data name="sixty" xml:space="preserve">
     <value>sixty</value>
   </data>
+  <data name="system" xml:space="preserve">
+    <value>system</value>
+  </data>
   <data name="ten" xml:space="preserve">
     <value>ten</value>
+  </data>
+  <data name="The number cannot fit in an Int64." xml:space="preserve">
+    <value>The number cannot fit in an Int64.</value>
   </data>
   <data name="thirteen" xml:space="preserve">
     <value>thirteen</value>

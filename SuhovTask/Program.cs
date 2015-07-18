@@ -27,7 +27,14 @@ namespace SuhovTask
             ITransformer transformer = kernel.Get<ITransformer>();
 
             while (true)
-                writer.Write(transformer.Transform(reader.GetNumber()));
+            {
+                var number = reader.GetNumber();
+
+                writer.Write(transformer.Transform(number), "decimal");
+
+                writer.Write(transformer.Transform(Convert.ToInt64(Convert.ToString(number, 8))), "octal");
+
+            }
         }
     }
 }

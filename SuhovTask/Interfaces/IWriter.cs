@@ -8,6 +8,6 @@ namespace SuhovTask.Interfaces
 {
     interface IWriter
     {
-        void Write(string number);
+        void Write(string number, string system);
     }
 }

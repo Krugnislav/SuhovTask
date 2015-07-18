@@ -18,6 +18,7 @@ namespace SuhovTask
                 Bind<IReader>().To<Reader>();
                 Bind<IWriter>().To<Writer>();
                 Bind<ITransformer>().To<Transformer>();
+
             }
     }
 }

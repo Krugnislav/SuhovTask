@@ -61,6 +61,33 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to десятичной.
+        /// </summary>
+        internal static string _decimal {
+            get {
+                return ResourceManager.GetString("decimal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to в.
+        /// </summary>
+        internal static string _in {
+            get {
+                return ResourceManager.GetString("in", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to миллиард.
+        /// </summary>
+        internal static string billion {
+            get {
+                return ResourceManager.GetString("billion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to восемь.
         /// </summary>
         internal static string eight {
@@ -187,6 +214,24 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Введенное значение не является последовательностью цифр..
+        /// </summary>
+        internal static string Input_string_is_not_a_sequence_of_digits_ {
+            get {
+                return ResourceManager.GetString("Input string is not a sequence of digits.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Введите число.
+        /// </summary>
+        internal static string Input_the_number {
+            get {
+                return ResourceManager.GetString("Input the number", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to а.
         /// </summary>
         internal static string less_than_five {
@@ -196,7 +241,7 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to и.
+        ///   Looks up a localized string similar to тысячи.
         /// </summary>
         internal static string less_than_five_thousands {
             get {
@@ -259,6 +304,15 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to восьмиричной.
+        /// </summary>
+        internal static string octal {
+            get {
+                return ResourceManager.GetString("octal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to один.
         /// </summary>
         internal static string one {
@@ -282,6 +336,15 @@ namespace SuhovTask.LanguageFiles {
         internal static string one_thousand {
             get {
                 return ResourceManager.GetString("one thousand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Результат.
+        /// </summary>
+        internal static string Result {
+            get {
+                return ResourceManager.GetString("Result", resourceCulture);
             }
         }
         
@@ -358,11 +421,29 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to системе исчисления.
+        /// </summary>
+        internal static string system {
+            get {
+                return ResourceManager.GetString("system", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to десять.
         /// </summary>
         internal static string ten {
             get {
                 return ResourceManager.GetString("ten", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Число не соответствует Int64..
+        /// </summary>
+        internal static string The_number_cannot_fit_in_an_Int64_ {
+            get {
+                return ResourceManager.GetString("The number cannot fit in an Int64.", resourceCulture);
             }
         }
         

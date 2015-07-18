@@ -15,7 +15,7 @@ namespace SuhovTask.Core
         {
             string numberAsString;
             Int64 number = 0;
-            Console.Write("Input the number: ");
+            Console.Write(Dictionary.Get("Input the number") + ": ");
             numberAsString = Console.ReadLine();
 
             try
@@ -24,11 +24,11 @@ namespace SuhovTask.Core
             }
             catch (FormatException e)
             {
-                Console.WriteLine("Input string is not a sequence of digits.");
+                Console.WriteLine(Dictionary.Get("Input string is not a sequence of digits."));
             }
             catch (OverflowException e)
             {
-                Console.WriteLine("The number cannot fit in an Int64.");
+                Console.WriteLine(Dictionary.Get("The number cannot fit in an Int64."));
             }
             return number;
         }

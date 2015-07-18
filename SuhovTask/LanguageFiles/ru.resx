@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="billion" xml:space="preserve">
+    <value>миллиард</value>
+  </data>
+  <data name="decimal" xml:space="preserve">
+    <value>десятичной</value>
+  </data>
   <data name="eight" xml:space="preserve">
     <value>восемь</value>
   </data>
@@ -159,11 +165,20 @@
   <data name="hundred" xml:space="preserve">
     <value>сто</value>
   </data>
+  <data name="in" xml:space="preserve">
+    <value>в</value>
+  </data>
+  <data name="Input string is not a sequence of digits." xml:space="preserve">
+    <value>Введенное значение не является последовательностью цифр.</value>
+  </data>
+  <data name="Input the number" xml:space="preserve">
+    <value>Введите число</value>
+  </data>
   <data name="less than five" xml:space="preserve">
     <value>а</value>
   </data>
   <data name="less than five thousands" xml:space="preserve">
-    <value>и</value>
+    <value>тысячи</value>
   </data>
   <data name="million" xml:space="preserve">
     <value>миллион</value>
@@ -183,6 +198,9 @@
   <data name="ninety" xml:space="preserve">
     <value>девяносто</value>
   </data>
+  <data name="octal" xml:space="preserve">
+    <value>восьмиричной</value>
+  </data>
   <data name="one" xml:space="preserve">
     <value>один</value>
   </data>
@@ -191,6 +209,9 @@
   </data>
   <data name="one thousand" xml:space="preserve">
     <value>одна тысяча</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Результат</value>
   </data>
   <data name="seven" xml:space="preserve">
     <value>семь</value>
@@ -216,8 +237,14 @@
   <data name="sixty" xml:space="preserve">
     <value>шестьдесят</value>
   </data>
+  <data name="system" xml:space="preserve">
+    <value>системе исчисления</value>
+  </data>
   <data name="ten" xml:space="preserve">
     <value>десять</value>
+  </data>
+  <data name="The number cannot fit in an Int64." xml:space="preserve">
+    <value>Число не соответствует Int64.</value>
   </data>
   <data name="thirteen" xml:space="preserve">
     <value>тринадцать</value>

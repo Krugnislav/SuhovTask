@@ -61,6 +61,33 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to decimal.
+        /// </summary>
+        internal static string _decimal {
+            get {
+                return ResourceManager.GetString("decimal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to in.
+        /// </summary>
+        internal static string _in {
+            get {
+                return ResourceManager.GetString("in", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to billion.
+        /// </summary>
+        internal static string billion {
+            get {
+                return ResourceManager.GetString("billion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to eight.
         /// </summary>
         internal static string eight {
@@ -160,6 +187,24 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Input string is not a sequence of digits..
+        /// </summary>
+        internal static string Input_string_is_not_a_sequence_of_digits_ {
+            get {
+                return ResourceManager.GetString("Input string is not a sequence of digits.", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Input the number.
+        /// </summary>
+        internal static string Input_the_number {
+            get {
+                return ResourceManager.GetString("Input the number", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to s.
         /// </summary>
         internal static string less_than_five {
@@ -214,6 +259,15 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to octal.
+        /// </summary>
+        internal static string octal {
+            get {
+                return ResourceManager.GetString("octal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to one.
         /// </summary>
         internal static string one {
@@ -228,6 +282,15 @@ namespace SuhovTask.LanguageFiles {
         internal static string one_thousand {
             get {
                 return ResourceManager.GetString("one thousand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Result.
+        /// </summary>
+        internal static string Result {
+            get {
+                return ResourceManager.GetString("Result", resourceCulture);
             }
         }
         
@@ -286,11 +349,29 @@ namespace SuhovTask.LanguageFiles {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to system.
+        /// </summary>
+        internal static string system {
+            get {
+                return ResourceManager.GetString("system", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ten.
         /// </summary>
         internal static string ten {
             get {
                 return ResourceManager.GetString("ten", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The number cannot fit in an Int64..
+        /// </summary>
+        internal static string The_number_cannot_fit_in_an_Int64_ {
+            get {
+                return ResourceManager.GetString("The number cannot fit in an Int64.", resourceCulture);
             }
         }
         
